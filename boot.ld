@@ -32,6 +32,7 @@ SECTIONS
     /* .bss section which is used for uninitialized data */
     .bss (NOLOAD) :
     {
+        _bss = .;
         . = ALIGN(4);
         _sbss = . ;
         *(.bss .bss.*)

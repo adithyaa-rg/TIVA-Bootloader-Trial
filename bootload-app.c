@@ -14,7 +14,7 @@
 
 #define DELAY_VALUE        4000000   
 
-void Delay(void);
+// void Delay(void);
 
 int main(void)
 {
@@ -37,8 +37,8 @@ int main(void)
     return 0;
 }
 
-void Delay(void)
-{
-	volatile unsigned long i;
-	for(i=0;i<DELAY_VALUE;i++);
-}
+// void Delay(void)
+// {
+// 	volatile unsigned long i;
+// 	for(i=0;i<DELAY_VALUE;i++);
+// }
